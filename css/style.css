@@ -1,0 +1,652 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	/*background-color: #999;*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+	background-color: #f7f7f7;
+	height: 100vh;
+}
+
+.container {
+	width: 1140px;
+	margin: 0px auto;
+	/*background-color: #fff;*/
+}
+
+.navbar {
+	display: flex;
+	padding-top: 50px;
+}
+
+.logo-box {
+	width: 17%;
+	position: relative;
+	/*background-color: gold;*/
+}
+
+/*.main-logo {
+	width: 135px;
+	height: 30px;	
+}*/
+
+.logo {
+	text-transform: uppercase;
+	font-size: 34px;
+	color: #464952;
+	font-weight: 600;
+	font-family: "Josefin Sans";
+}
+
+.logo-green {
+	color: #34bf49;
+}
+
+.logo-green-circle {
+	width: 8px;
+	height: 8px;
+	background-color: #34bf49;
+	border-radius: 50%;
+	position: absolute;
+	top: -30%;
+	left: 75%;
+}
+
+.nav-list {
+	display: flex;
+	width: 63%;
+	/*background-color: red;*/
+}
+
+.nav-item {
+	margin-left: 45px;
+	margin-top: 4px;
+}
+
+.nav-link {
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #9a9a9a;
+	font-weight: 600;
+	transition: color 0.2s;
+}
+
+.nav-link:hover {
+	color: #464952; 
+}
+
+.active {
+	color: #464952 !important;
+}
+
+.search-form {
+	width: 20%;
+	/*background-color: green;*/
+	position: relative;
+}
+
+.search-input {
+	width: 90%;
+	padding: 5px 5px 5px 30px;
+	background-color: transparent;
+	border: 2px solid #34bf49; 
+}
+
+.lupa {
+	position: absolute;
+	left: 3%;
+	top: 15%;
+}
+
+.showcase {
+	display: flex;
+	margin-top: 80px;
+	align-items: center;
+	justify-content: space-between;
+} 
+
+.showcase-content-box {
+	width: 57%;
+	/*background-color: gold;*/
+}
+
+.showcase-sup-text {
+	text-transform: capitalize;
+	font-size: 20px;
+	color: #222d39;
+	font-weight: 400;
+	font-family: "Varela Round";
+	margin-bottom: 25px;
+}
+
+.showcase-title {
+	font-size: 60px;
+	text-transform: capitalize;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+	margin-bottom: 40px;
+}
+
+.showcase-sub-text {
+	font-size: 18px;
+	line-height: 32px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+	margin-bottom: 90px;
+}
+
+.showcase-img-box {
+	width: 43%;
+	/*background-color: #999;*/
+}
+
+.showcase-main-img {
+	width: 100%;
+	transform: translateX(20%);
+
+}
+
+.showcase-button-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.order-link-box {
+	width: 45%;
+}
+
+.order-link {
+	background-color: #34bf49;
+	padding: 20px 45px;
+	font-size: 18px;
+	color: #fafafb;
+	font-weight: 400;
+	font-family: "Varela Round";
+	text-transform: capitalize;
+	transition: 0.2s;
+	display: inline-block;
+}
+
+.order-link:hover {
+ 	background-color: #11ad28;
+}
+
+.watch-button {
+	width: 45%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.watch-button:hover {
+	cursor: pointer;
+} 
+
+.watch-button-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	/*background-color: gold;*/
+	box-shadow: 5px 7px 15px rgba(0,0,0,0.15);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.watch-our-story {
+	font-size: 20px;
+	color: #222d39;
+	font-weight: 400;
+	font-family: "Varela Round";
+	text-transform: capitalize;
+	margin-left: 30px;
+}
+
+
+/*Our specilaties section*/
+
+.specialties-section .section-title {
+	margin-top: 150px;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 60px;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+}
+
+.specialties-section .title-subtext {
+	font-size: 20px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+	text-align: center;
+	margin-top: 20px;
+}
+
+.specialties-list {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.specialties-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.specialties-item:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.specialties-img-box {
+	width: 40%;
+}
+
+.specialties-img {
+	width: 100%;
+}
+
+.specialties-text-box {
+	width: 50%;
+	/*padding: 0px 100px;*/
+}
+
+.specialties-title {
+	font-size: 30px;
+	margin-bottom: 45px;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+}
+
+.specialties-title-sub-text {
+	font-size: 18px;
+	line-height: 34px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+}
+
+/*Our Happy User Section*/
+
+.our-happy-user .section-title {
+	margin-top: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 60px;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+}
+
+.our-happy-user .title-subtext {
+	font-size: 20px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+	text-align: center;
+	margin-top: 20px;
+}
+
+.our-user-section-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.our-user-img-box {
+	width: 35%;
+	height: 400px;
+}
+
+.happy-user-img {
+	width: 100%;
+	height: 100%;
+}
+
+.our-user-text-box {
+	width: 55%;
+}
+
+.quote-img {
+	margin-bottom: 20px;
+}
+
+.quote-sub-text {
+	font-size: 20px;
+	line-height: 36px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+	/*padding-right: 100px;*/
+	margin-bottom: 35px;
+}
+
+.cheaf-name {
+	font-size: 20px;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+	margin-bottom: 10px;
+}
+
+.cheaf-bio {
+	font-size: 16px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+	margin-bottom: 30px;
+}
+
+.circle-list {
+	display: flex;
+	align-items: center;
+}
+
+.circle-item {
+	width: 8px;
+	height: 8px;
+	background-color: #d1d1d1;
+	margin-right: 25px;
+	border-radius: 50%;
+}
+
+.circle-list .active {
+	background-color: #34bf49;
+	width: 15px;
+	height: 15px;
+}
+
+/*Updates Section*/
+
+.updates {
+	padding-bottom: 180px;
+}
+
+.updates .container {
+	display: flex;
+	align-items: center;
+}
+
+.updates-text-box {
+	width: 60%;
+}
+
+.updates-main-text {
+	font-size: 60px;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+	margin-bottom: 30px;
+}
+.updates-sub-text{
+	width: 507px;
+	height: 91px;
+	font-size: 18px;
+	line-height: 34px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Varela Round";
+	margin-bottom: 50px;
+}
+
+.updates-form {
+	width: 450px;
+	display: flex;
+	box-shadow: 12px 10px 28px rgba(0,0,0,0.2);
+}
+
+.updates-input {
+	width: 75%;
+	padding: 15px 25px;
+	outline: none;
+	border: none;
+}
+
+.updates-input::placeholder {
+	color: #999;
+}
+
+.updates-submit {
+	width: 25%;
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #34bf49;
+	outline: none;
+	border: none;
+	transition: 0.2s;
+}
+
+.updates-submit:hover {
+	cursor: pointer;
+	background-color: #11ad28;
+}
+
+.updates-img-box {
+	width: 40%;
+	height: 400px;
+	transform: scale(1.3);
+}
+
+.updates-img {
+	width: 100%;
+	height: 100%;
+	transform: translateX(20%);
+}
+
+/* Footer*/
+
+.footer-nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.footer-nav-link {
+	text-transform: capitalize;
+	font-size: 20px;
+	color: #9a9a9a;
+	font-weight: 600;
+	font-family: "Josefin Sans";
+	transition: 0.2s;
+}
+
+.footer-nav-link:hover {
+	color: #34bf49;
+} 
+
+.get-apps {
+	width: 100%;
+	background-image: linear-gradient( rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+					  url(../img/footer-img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.get-apps .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.get-apps-text {
+	padding-top: 90px;
+	text-transform: capitalize;
+	font-size: 40px;
+	color: #464952;
+	font-weight: 700;
+	font-family: "Josefin Sans";
+}
+
+.get-apps-links {
+	margin-top: 40px;
+	margin-bottom: 90px;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.play-market-link {
+	width: 42%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: #000;
+	border-radius: 5px;
+	color: #fff; 
+	transition: transform 0.2s;
+}
+
+.play-market-link:hover {
+	transform: scale(1.05);
+}
+
+.play-market-link .icon {
+	width: 25%;
+}
+
+.google-play-icon {
+	width: 100%;
+}
+
+.play-market-link .text {
+	width: 70%;
+}
+
+.get-it-on {
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-bottom: 5px;
+}
+
+.google-play {
+	text-transform: capitalize;
+	font-size: 21px;
+}
+
+.app-store-link {
+	width: 42%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: #000; 
+	border-radius: 5px;
+	color: #fff;
+	transition: transform 0.2s;
+}
+
+.app-store-link:hover {
+	transform: scale(1.04);
+}
+
+.app-store-link .icon {
+	width: 25%;
+}
+
+.app-store-icon {
+	width: 100%;
+}
+
+.app-store .text {
+	width: 70%;
+}
+
+.download {
+	text-transform: capitalize;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+.app-store-text {
+	text-transform: capitalize;
+	font-size: 24px;
+}
+
+.footer-bottom {
+	margin: 30px 0px;
+}
+
+.footer-bottom .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.copyright {
+	width: 40%;
+	font-size: 20px;
+	color: #9a9a9a;
+	font-weight: 400;
+	font-family: "Josefin Sans";
+}
+
+.footer-icon-list {
+	width: 25%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.svg-footer-icon {
+	fill: #9a9a9a;
+	width: 30px;
+	transition: 0.2s;
+}
+
+.less-icon {
+	fill: #9a9a9a;
+	width: 25px;
+	transition: 0.2s;	
+}
+
+.svg-footer-icon:hover,
+.less-icon:hover {
+	fill: #34bf49;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
