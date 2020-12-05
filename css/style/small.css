@@ -1,0 +1,330 @@
+@media (max-width: 576px) {
+	.container {
+		width: 540px;
+	}
+
+	.navbar {
+		padding-top: 20px;
+	}
+
+	.logo {
+		font-size: 20px;
+	}
+
+	.logo-green-circle {
+		left: 85px;
+		top: -3px;
+		width: 5px;
+		height: 5px;
+	}
+
+	.nav-link {
+		font-size: 13px;
+	}
+
+	.active {
+		color: #9a9a9a !important;
+	}
+
+	.search-input {
+		padding: 1px 1px 1px 18px;
+	}
+
+	.lupa {
+		width: 13px;
+		height: 13px;
+	}
+
+	.showcase-title {
+		font-size: 32px;
+		padding-top: 15px;
+	}
+
+	.showcase-sup-text {
+		font-size: 16px;
+		padding-top: 80px;
+	}
+
+	.showcase-sub-text {
+		font-size: 14px;
+		line-height: 28px;
+		margin-bottom: 50px;
+	}
+
+	.order-link {
+		padding: 10px 25px;
+		font-size: 14px;
+	}
+
+	.watch-button {
+		height: 32px;
+		width: 50%;
+	}
+
+	.watch-button-icon {
+		height: 32px;
+		width: 32px;
+	}
+
+	.watch-our-story {
+		font-size: 14px;
+		margin-left: 8px;
+	}
+
+
+	/*Our specilaties section*/ 
+
+	.specialties-section .section-title {
+			font-size: 32px;
+			margin-top: 40px;
+	}
+
+	.specialties-section .title-subtext {
+		font-size: 15px;
+		margin-top: 10px;
+		padding: 0px 70px;
+	}
+
+	.specialties-item {
+		flex-direction: column;
+	}
+
+	.specialties-item:nth-child(even) {
+		flex-direction: column;
+	}
+
+	.specialties-img-box {
+		widows: 100%;
+	}
+
+	.specialties-text-box {
+		width: 85%;
+		display: inline-block;
+		margin: 0px auto;
+	}
+
+	.specialties-title {
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+
+	.specialties-title-sub-text {
+		text-align: center;
+		line-height: 26px;
+		padding-top: 10px;
+	}
+
+
+		/*Our Happy User Section*/ 
+
+	.our-happy-user .section-title {
+		margin-top: 20px;
+		font-size: 32px;
+	}
+
+	.our-happy-user .title-subtext {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 6px;
+		padding: 0px 60px;
+	}
+
+
+	.our-user-section-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+
+	.our-user-img-box {
+		width: 80%;
+		height: 350px;
+	}
+
+	.quote-img {
+		margin-bottom: 0px;
+		width: 0px;
+	}
+
+	.our-user-text-box {
+		width: 80%;
+	}
+
+	.quote-sub-text {
+		font-size: 15px;
+		line-height: 28px;
+		text-align: center;
+	}
+
+	.cheaf-name {
+		font-size: 17px;
+		margin-bottom: 5px;
+		/*text-align: center;*/
+	}
+
+	.circle-list {
+		width: 65px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0px auto;
+	}
+
+	.circle-item {
+		margin-right: 0px;
+	}
+
+
+
+	/*Updates Section*/ 
+
+	.updates {
+		padding-bottom: 80px;
+	}
+
+	.updates .container {
+		width: 90%;
+		display: block;
+		margin: 0px auto;
+	}
+
+	.updates-main-text {
+		font-size: 34px;
+		margin-bottom: 15px;
+		padding: 0px 50px;
+		text-align: center;
+	}
+
+
+	.updates-sub-text {
+		line-height: 28px;
+		margin-bottom: 20px;
+		font-size: 15px;
+		text-align: center;
+		padding: 0px 50px;
+	}
+
+	.updates-text-box {
+		width: 100%;
+		display: inline-block;
+		margin: 0px auto;
+	}
+
+ 	.updates-img-box {
+		width: 0%;
+		height: 0px;
+	}
+
+	.updates-form {
+		width: 330px;
+		display: flex;
+		margin: 0px auto;
+		box-shadow: 5px 6px 18px rgba(0,0,0,0.18);
+	}
+
+	.updates-input,
+	.updates-submit {
+		padding: 8px 16px;
+		font-size: 12px;
+	}
+	
+
+	/* Footer*/
+
+	.footer-nav-list {
+		margin-bottom: 15px;
+	}
+
+	.footer-nav-link {
+		font-size: 14px;
+	}
+
+	.get-apps {
+		background-color: #dffb9f
+	}
+
+	.get-apps-text {
+		padding-top: 40px;
+		font-size: 25px;
+	}
+
+	.get-apps-links {
+		margin-top: 15px;
+		margin-bottom: 45px;
+		width: 290px;
+	}
+
+	.play-market-link {
+		padding: 1px 2px;
+	}
+
+	.get-it-on {
+		font-size: 6px;
+		padding-bottom: 1px;
+	}
+
+	.google-play {
+		font-size: 15px;
+	}
+
+	.app-store-link {
+		padding: 1px 2px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.download {
+		font-size: 7px;
+		padding-bottom: 1px;
+	}
+
+	.app-store-text {
+		font-size: 17px;
+	}
+
+
+	.footer-bottom {
+		margin: 12px 0px;
+	}
+
+	.copyright {
+		font-size: 13px;
+		width: 65%;
+	}
+
+	.svg-footer-icon {
+		width: 20px;
+	}
+
+	.less-icon {
+		width: 15px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -56,8 +56,8 @@ body {
 	background-color: #34bf49;
 	border-radius: 50%;
 	position: absolute;
-	top: -30%;
-	left: 75%;
+	top: -10px;
+	left: 145px;
 }
 
 .nav-list {
@@ -102,8 +102,8 @@ body {
 
 .lupa {
 	position: absolute;
-	left: 3%;
-	top: 15%;
+	left: 5px;
+	top: 5px;
 }
 
 .showcase {

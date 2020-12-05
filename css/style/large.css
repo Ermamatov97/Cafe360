@@ -1,0 +1,269 @@
+@media (max-width: 992px) {
+	.container {
+		width: 960px;
+	}
+
+	.navbar {
+		padding-top: 35px;
+	}
+
+	.logo-box {
+		width: 17%;
+	}
+
+	.logo {
+		font-size: 28px;
+	}
+
+	.logo-green-circle {
+		width: 6px;
+		height: 6px;
+		left: 120px;
+	}
+
+	.nav-item {
+		margin-left: 30px;
+	}
+
+	.nav-link {
+		font-size: 16px;
+	}
+
+	.search-input {
+		padding: 4px 4px 4px 25px;
+	}
+
+	.lupa {
+		width: 20px;
+		height: 20px;
+	}
+
+	.showcase-title {
+		font-size: 45px;
+	}
+
+	.showcase-sup-text {
+		font-size: 18px;
+	}
+
+	.showcase-sub-text {
+		font-size: 16px;
+	}
+
+	.showcase-main-img {
+		transform: translateX(5%);
+	}
+
+	.order-link {
+		padding: 15px 35px;
+		font-size: 16px;
+	}
+
+	.watch-button {
+		height: 40px;
+	}
+
+	.watch-button-icon {
+		width: 40px;
+		height: 40px;
+	}
+
+	.watch-our-story {
+		font-size: 18px;
+		margin-left: 25px;
+	}
+
+
+	/*Our specilaties section*/
+
+	.specialties-section .section-title {
+		margin-top: 100px;
+		font-size: 45px;
+	}
+
+	.specialties-section .title-subtext {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.specialties-list {
+		margin-top: 70px;
+	}
+
+	.specialties-item {
+		margin-bottom: 70px;
+	}
+
+	.specialties-title {
+		font-size: 28px;
+		margin-bottom: 35px;
+	} 
+
+	.specialties-title-sub-text {
+		font-size: 16px;
+		line-height: 32px;
+	}
+
+
+	/*Our Happy User Section*/ 
+
+	.our-happy-user .section-title {
+		margin-top: 40px;
+		font-size: 50px;
+	}
+
+	.our-happy-user .title-subtext {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.our-user-section-content {
+		margin-top: 70px;
+		margin-bottom: 120px;
+	}
+
+	.our-user-img-box {
+		height: 330px;
+	}
+
+	.quote-img {
+		margin-bottom: 16px;
+		width: 40px;
+	}
+
+	.quote-sub-text {
+		font-size: 18px;
+		line-height: 34px;
+		margin-bottom: 25px;
+	}
+
+	.cheaf-name {
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+
+	.cheaf-bio {
+		font-size: 15px;
+		margin-bottom: 25px;
+	}
+
+	.circle-item {
+		width: 7px;
+		height: 7px;
+		margin-right: 18px;
+	}
+
+	.circle-list .active {
+		width: 13px;
+		height: 13px;
+	}
+
+
+	/*Updates Section*/ 
+
+	.updates {
+		padding-bottom: 120px;
+	}
+
+	.updates-main-text {
+		font-size: 50px;
+		margin-bottom: 25px;
+	}
+
+	.updates-sub-text {
+		line-height: 32px;
+		margin-bottom: 40px;
+	}
+
+	.updates-form {
+		width: 420px;
+	}
+
+	.updates-input,
+	.updates-submit {
+		padding: 12px 20px;
+	}
+
+	.updates-img-box {
+		height: 320px;
+		transform: scale(1.2);
+	}
+
+	.updates-img {
+		transform: translateX(0%);
+	}
+
+
+	/* Footer*/
+
+	.footer-nav-list {
+		margin-bottom: 35px;
+	}
+
+	.footer-nav-link {
+		font-size: 18px;
+	}
+
+	.get-apps {
+		/*background-image: linear-gradient( rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+					  url(../img/footer-img.png);
+		background-repeat: no-repeat;
+		background-size: cover;*/
+		background-color: lightgreen;
+	}
+
+	.get-apps-text {
+		padding-top: 70px;
+		font-size: 35px;
+	}
+
+	.get-apps-links {
+		margin-top: 30px;
+		margin-bottom: 70px;
+		width: 420px;
+	}
+
+	.play-market-link {
+		padding: 3px 6px;
+	}
+
+	.get-it-on {
+		font-size: 8px;
+		padding-bottom: 3px;
+	}
+
+	.google-play {
+		font-size: 19px;
+	}
+
+	.app-store-link {
+		padding: 3px 6px;
+	}
+
+	.download {
+		font-size: 10px;
+		padding-bottom: 3px;
+	}
+
+	.app-store-text {
+		font-size: 22px;
+	}
+
+	.footer-bottom {
+		margin: 20px 0px;
+	}
+
+	.copyright {
+		font-size: 18px;
+		width: 50%;
+	}
+
+	.svg-footer-icon {
+		width: 25px;
+	}
+
+	.less-icon {
+		width: 20px;
+	}
+}
+
